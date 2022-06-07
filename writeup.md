@@ -1,7 +1,7 @@
 Hi everyone, I'm 0x Alessandro.
 During the period from Sat, 04 Jun. 2022, 13:00 UTC to Mon, 06 Jun. 2022, 13:00 UTC I participated in the ctf organized by https://ctf.n00bzunit3d.xyz/
 I was in Cubi di Rubick team and we qualified first in high school and 7th in Open.
-we have solved a total of 30 challenges and this is the writeup of the challenges that I found most interesting
+We have solved a total of 30 challenges and this is the writeup of the challenges that I found most interesting
 
 
 ![image](https://media.discordapp.net/attachments/983355827127738408/983355895536832542/unknown.png)
