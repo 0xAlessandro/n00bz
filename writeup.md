@@ -125,10 +125,11 @@ The bio is very strange so i started trying to search hidden message until I fou
 <h2>And here it comes the most important but also most interesting part.
 This is the image</h2>
 
-![image](https://s1.fdow.nl/u6QfK-chall.jpg)
+![image](https://i.ibb.co/xSGg1m8/osintriver.jpg)
 
 After searching a little bit with google image reverse, i wasn't able to find anything.
-
+I thought I was doing something wrong until I tried yandex, thanks to it I was able to find out the name of the river and where it was located.
+All I had to do was translate the highlighted name into English and put it into the flag format so it became <h3>n00bz{new_kakhova_plavni}</h3>
 
 
 
