@@ -149,13 +149,18 @@ All I had to do was translate the highlighted name into English and put it into 
 
 <h4>Attachment https://ctf.n00bzunit3d.xyz/attachments/Hot_Stuff/corrupt.lava</h4>
 
-As first thing I started to decompile it with lavadecode getting poor results. Doing strings to the file we get some writing and then some strange characters, I put it on cyberchef and removed what I didn't need, leaving some three digit numbers like &u146D &l154X &x157X and so on. Putting them on [cyberchef][1] I noticed they were in octal and so I converted them getting the flag
+As first thing I started to decompile it with lavadecode getting poor results. Doing strings to the file we get some writing and then some strange characters, I put it on cyberchef and removed what I didn't need, leaving some three digit numbers like &u146D &l154X &x157X and so on. Putting them on [cyberchef][2] I noticed they were in octal and so I converted them getting the flag:  n00z{floorislava}
 
-[1]: https://gchq.github.io/CyberChef/#recipe=From_Octal('Space')&input=MTQ2IDE1NCAxNTcgMTU3IDE2Mg "decode"
+[2]: https://gchq.github.io/CyberChef/#recipe=From_Octal('Space')&input=MTQ2IDE1NCAxNTcgMTU3IDE2Mg "decode"
+
 
 
   
-
   
   
-  
+<h3>That is the end. 
+    I really enjoyed this ctf, the admins were also very kind and helpful and ready to solve any problem, I will definitely participate in the next edition</h3>
+    
+    
+    
+    
