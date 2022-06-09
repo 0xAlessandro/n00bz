@@ -110,10 +110,17 @@ Searching this username online will lead you quickly to his instangram account.
 The bio is very strange so i started trying to search hidden message until I found an oline decoder that suited my case
 
 ![image](https://i.ibb.co/0CnTvsf/Tw.png)
+
+<h3>With this information we can proceed with our research, I started looking on various social trying to find something interesting.</h2>
+<h3>I found then on Twitter just what we were looking for</h2>
+
+![image1](https://i.ibb.co/61r1Vh9/n00bmasstwitter.png)
+
+<h3>His only tweet contained a link, which when opened downloaded a pcapng file, which contained a few tcp streams</h3>
+
                                                                                                                                               
-                                                                                                                                                          
-                                                                                                                                                          
-                                                                                                                                                          
+                                                                                                                                                                                                                                                                       
+                                                                                                                                                        
 
 
 
