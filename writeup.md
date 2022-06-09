@@ -59,7 +59,7 @@ $_ ---> used to reference the absolute file name of the shell or bash script whi
 but without success.
 Then i found on a webiste something interesting:
 ```
-   - $0 expands to the name of the shell or shell script
+   - $0  it's the name of the file(0st argument) but in this case it gives a full unrestricted shell
    - $1 is the first argument (filename1)
    - $2 is the second argument (dir1)
    - $9 is the ninth argument
@@ -104,7 +104,12 @@ This are all the information that we have.
 
 Searching this username online will lead you quickly to his instangram account.
 
-[image](!https://www.instagram.com/noobpeople9999.png)
+![image](https://i.ibb.co/pj9ZW54/n00bpeople-instangram.png)
+
+
+The bio is very strange so i started trying to search hidden message until I found an oline decoder that suited my case
+
+![image](https://i.ibb.co/0CnTvsf/Tw.png)
                                                                                                                                               
                                                                                                                                                           
                                                                                                                                                           
