@@ -61,7 +61,7 @@ $_ ---> used to reference the absolute file name of the shell or bash script whi
 but without success.
 Then i found on a [webiste][1] something interesting:
 ```
-   - $0  it's the name of the file(0st argument, jail.py) but in this case it gives a full unrestricted shell
+   - $0  it's the name of the file(0st argument) that in this case was /bin/sh
    - $1 is the first argument (filename1)
    - $2 is the second argument (dir1)
    - $9 is the ninth argument
@@ -69,7 +69,7 @@ Then i found on a [webiste][1] something interesting:
    - ${11} is the eleventh argument.
 ``` 
 
-None worked except for $0 which broke the terminal and allowed to write commands 
+None worked except for $0 which executed /bin/sh and allowed me to run ordinary commands
 
 ![solve](https://i.ibb.co/bg9VW20/solve.png)
 
