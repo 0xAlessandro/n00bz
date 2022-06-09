@@ -125,7 +125,7 @@ The bio is very strange so i started trying to search hidden message until I fou
 <h2>And here it comes the most important but also most interesting part.
 This is the image</h2>
 
-![image](https://i.ibb.co/xSGg1m8/osintriver.jpg)
+![image](https://i.ibb.co/dB2FdcB/reverse1.jpg)
 
 After searching a little bit with google image reverse, i wasn't able to find anything.
 I thought I was doing something wrong until I tried yandex, thanks to it I was able to find out the name of the river and where it was located.
