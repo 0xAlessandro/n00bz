@@ -23,7 +23,9 @@ We have solved a total of 30 challenges and this is the writeup of the challenge
 
 
 
-MISC
+
+
+## MISC
 
                                 /$$$$$  /$$$$$$  /$$$$$$ /$$      
                                |__  $$ /$$__  $$|_  $$_/| $$      
@@ -57,7 +59,7 @@ $_ ---> used to reference the absolute file name of the shell or bash script whi
 but without success.
 Then i found on a webiste something interesting:
 ```
-   - $0 is the name of the script itself (script.sh)
+   - $0 expands to the name of the shell or shell script
    - $1 is the first argument (filename1)
    - $2 is the second argument (dir1)
    - $9 is the ninth argument
@@ -65,6 +67,53 @@ Then i found on a webiste something interesting:
    - ${11} is the eleventh argument.
 ``` 
 
-None worked except for $0  which broke the terminal and allowed to write commands 
+None worked except for $0 which broke the terminal and allowed to write commands 
 
 ![solve](https://i.ibb.co/bg9VW20/solve.png)
+
+
+
+
+
+# OSINT                                                                                                                       
+
+                  JJJJJJJJJJJ     OOOOOOOOO     HHHHHHHHH     HHHHHHHHHNNNNNNNN        NNNNNNNN     DDDDDDDDDDDDD             OOOOOOOOO     EEEEEEEEEEEEEEEEEEEEEE
+                  J:::::::::J   OO:::::::::OO   H:::::::H     H:::::::HN:::::::N       N::::::N     D::::::::::::DDD        OO:::::::::OO   E::::::::::::::::::::E
+                  J:::::::::J OO:::::::::::::OO H:::::::H     H:::::::HN::::::::N      N::::::N     D:::::::::::::::DD    OO:::::::::::::OO E::::::::::::::::::::E
+                  JJ:::::::JJO:::::::OOO:::::::OHH::::::H     H::::::HHN:::::::::N     N::::::N     DDD:::::DDDDD:::::D  O:::::::OOO:::::::OEE::::::EEEEEEEEE::::E
+                    J:::::J  O::::::O   O::::::O  H:::::H     H:::::H  N::::::::::N    N::::::N       D:::::D    D:::::D O::::::O   O::::::O  E:::::E       EEEEEE
+                    J:::::J  O:::::O     O:::::O  H:::::H     H:::::H  N:::::::::::N   N::::::N       D:::::D     D:::::DO:::::O     O:::::O  E:::::E             
+                    J:::::J  O:::::O     O:::::O  H::::::HHHHH::::::H  N:::::::N::::N  N::::::N       D:::::D     D:::::DO:::::O     O:::::O  E::::::EEEEEEEEEE   
+                    J:::::j  O:::::O     O:::::O  H:::::::::::::::::H  N::::::N N::::N N::::::N       D:::::D     D:::::DO:::::O     O:::::O  E:::::::::::::::E   
+                    J:::::J  O:::::O     O:::::O  H:::::::::::::::::H  N::::::N  N::::N:::::::N       D:::::D     D:::::DO:::::O     O:::::O  E:::::::::::::::E   
+        JJJJJJJ     J:::::J  O:::::O     O:::::O  H::::::HHHHH::::::H  N::::::N   N:::::::::::N       D:::::D     D:::::DO:::::O     O:::::O  E::::::EEEEEEEEEE   
+        J:::::J     J:::::J  O:::::O     O:::::O  H:::::H     H:::::H  N::::::N    N::::::::::N       D:::::D     D:::::DO:::::O     O:::::O  E:::::E             
+        J::::::J   J::::::J  O::::::O   O::::::O  H:::::H     H:::::H  N::::::N     N:::::::::N       D:::::D    D:::::D O::::::O   O::::::O  E:::::E       EEEEEE
+        J:::::::JJJ:::::::J  O:::::::OOO:::::::OHH::::::H     H::::::HHN::::::N      N::::::::N     DDD:::::DDDDD:::::D  O:::::::OOO:::::::OEE::::::EEEEEEEE:::::E
+         JJ:::::::::::::JJ    OO:::::::::::::OO H:::::::H     H:::::::HN::::::N       N:::::::N     D:::::::::::::::DD    OO:::::::::::::OO E::::::::::::::::::::E
+           JJ:::::::::JJ        OO:::::::::OO   H:::::::H     H:::::::HN::::::N        N::::::N     D::::::::::::DDD        OO:::::::::OO   E::::::::::::::::::::E
+             JJJJJJJJJ            OOOOOOOOO     HHHHHHHHH     HHHHHHHHHNNNNNNNN         NNNNNNN     DDDDDDDDDDDDD             OOOOOOOOO     EEEEEEEEEEEEEEEEEEEEEE
+
+                                                                                                                                                          
+
+---
+
+> <h3>John Doe is on the run! Find the city in which he's planning to meet someone! Start your journey by the social media ccount name noobpeople9999. Example flag: n00bz{new_york}</h3>
+
+This are all the information that we have.
+
+Searching this username online will lead you quickly to his instangram account.
+
+[image](!https://www.instagram.com/noobpeople9999.png)
+                                                                                                                                              
+                                                                                                                                                          
+                                                                                                                                                          
+                                                                                                                                                          
+
+
+
+  
+
+  
+  
+  
