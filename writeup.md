@@ -40,7 +40,9 @@ We have solved a total of 30 challenges and this is the writeup of the challenge
                                       
 
 
-I allow only numbers and special characters, surely you can't escape this jail! nc challs.n00bzunit3d.xyz 32281
+> <h3>I allow only numbers and special characters, surely you can't escape this jail! nc challs.n00bzunit3d.xyz 32281</h3>
+
+
 In this challenge we were only given one remote host to connect to.
 
 
@@ -57,9 +59,9 @@ $- ---> is used to get current option flags specified during the invocation, by 
 $_ ---> used to reference the absolute file name of the shell or bash script which is being executed as specified in the argument list.
 ```
 but without success.
-Then i found on a webiste something interesting:
+Then i found on a [webiste][1] something interesting:
 ```
-   - $0  it's the name of the file(0st argument) but in this case it gives a full unrestricted shell
+   - $0  it's the name of the file(0st argument, jail.py) but in this case it gives a full unrestricted shell
    - $1 is the first argument (filename1)
    - $2 is the second argument (dir1)
    - $9 is the ninth argument
@@ -73,7 +75,7 @@ None worked except for $0 which broke the terminal and allowed to write commands
 
 
 
-
+[1]: https://bash.cyberciti.biz/guide/$1 "$0 explanation"
 
 # OSINT                                                                                                                       
 
@@ -132,11 +134,24 @@ I thought I was doing something wrong until I tried yandex, thanks to it I was a
 All I had to do was translate the highlighted name into English and put it into the flag format so it became <h3>n00bz{new_kakhova_plavni}</h3>
 
 
+<h2>FORENSIC</h2>
 
-                                                                                                                                              
-                                                                                                                                                                                                                                                                       
-                                                                                                                                                        
+         _   _  ___ _____   ____ _____ _   _ _____ _____ 
+        | | | |/ _ |_   _| / ___|_   _| | | |  ___|  ___|
+        | |_| | | | || |   \___ \ | | | | | | |_  | |_   
+        |  _  | |_| || |    ___) || | | |_| |  _| |  _|  
+        |_| |_|\___/ |_|   |____/ |_|  \___/|_|   |_|    
+                                                 
 
+---
+
+> <h3>The local Konica Minolta printer overheated. Can you find out why?</h3>
+
+<h4>Attachment https://ctf.n00bzunit3d.xyz/attachments/Hot_Stuff/corrupt.lava</h4>
+
+As first thing I started to decompile it with lavadecode getting poor results. Doing strings to the file we get some writing and then some strange characters, I put it on cyberchef and removed what I didn't need, leaving some three digit numbers like &u146D &l154X &x157X and so on. Putting them on [cyberchef][1] I noticed they were in octal and so I converted them getting the flag
+
+[1]: https://gchq.github.io/CyberChef/#recipe=From_Octal('Space')&input=MTQ2IDE1NCAxNTcgMTU3IDE2Mg "decode"
 
 
   
