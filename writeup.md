@@ -61,7 +61,9 @@ $_ ---> used to reference the absolute file name of the shell or bash script whi
 but without success.
 Then i found on a [webiste][1] something interesting:
 ```
-   - $0  it's 0st argument that in this case was /bin/sh since in the first line there is written #!/bin/python our script will be executed with sh-> it'lle be like sh ./jail.py
+   - $0  it's 0st argument that in this case was /bin/sh because the command is run using os.system, which executes the command in a new shell.
+   Python --> bash(from os.system) --> echo $0 (or other command)
+   
    - $1 is the first argument (filename1)
    - $2 is the second argument (dir1)
    - $9 is the ninth argument
